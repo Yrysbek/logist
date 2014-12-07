@@ -1,0 +1,356 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Reg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "ProximaNova", "PT Sans Caption","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/topBg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.intro-message {
+    font-weight: normal;
+}
+.header-caption {
+    font-size: 5em;
+    margin: 0 0 50px;
+    font-weight: normal;
+}
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.intro-message .top-text{
+    font-size: 18px;
+    padding: 0 25px;
+}
+.list-inline {
+    margin-bottom: 80px;
+}
+.order-btn {
+    background: #eda02c;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.order-btn:hover{
+    background: #F7B34D;
+    color: #fff;
+    text-decoration: none;
+}
+.icon-clock{
+    background: url('../img/clock.png') 50% no-repeat;
+    background-size: contain;
+    height: 45px;
+}
+.icon-fake{
+    background: url('../img/fake.png') 50% no-repeat;
+    background-size: contain;
+    height: 45px;
+}
+.icon-police{
+    background: url('../img/police.png') 50% no-repeat;
+    background-size: contain;
+    height: 45px;
+}
+.icon-money{
+    background: url('../img/money.png') 50% no-repeat;
+    background-size: contain;
+    height: 45px;
+}
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/block-02-bg.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.content-section-d {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000;
+    background: url(../img/block-04-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+}
+
+@media(max-width:767px) {
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #646464;
+    color: #fff;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+.section-order {
+    font-size: 22px;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+.section-order .lead {
+    color: #777;
+}
+
+.section-order .section-heading {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #666;
+}
+.order-form input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #888;
+    margin: 5px 0 15px;
+}
+.content-section-b .section-heading {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+}
+.company-digits {
+    padding-bottom: 200px;
+    text-shadow: 1px 1px 10px #21466C;
+}
+.digits-text {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.digits-text .number {
+    font-weight: bold;
+    font-size: 90px;
+}
+.path-number {
+    font-size: 45px;
+    color: #1983BE;
+    font-weight: bold;
+    border-bottom: 7px solid #1983BE;
+}
+.section-path {
+    font-size: 20px;
+    color: #777;
+}
+.section-path .section-heading {
+    margin-bottom: 40px;
+}
+.path-text {
+    margin: 20px 0;
+}
+
+.section-import {
+    padding-top: 70px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 70px;
+    color: #fff;
+    background: #4588B3;
+}
+.section-import .section-heading {
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+.import-item-text {
+    padding: 15px 15px 50px;
+    font-size: 18px;
+}
+.icon-byt-teh {
+    background: url('../img/byt_teh.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+.icon-kanc-tov {
+    background: url('../img/kanc_tov.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+.icon-prom-ob {
+    background: url('../img/prom_ob.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+.icon-odejda {
+    background: url('../img/odejda.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+.icon-dom-prod {
+    background: url('../img/dom_prod.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+.icon-det-prod {
+    background: url('../img/det_prod.png') 50% no-repeat;
+    background-size: contain;
+    height: 65px;
+}
+
+.section-slogan.section-order {
+    background: url(../img/block-06-bg.jpg) no-repeat center 60%;
+    background-size: cover;
+    color: #fff;
+}
+.text-slogan {
+    padding: 50px 14%;
+    border: 2px solid #fff;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+.section-slogan.section-order .section-heading,
+.section-slogan.section-order .lead {
+    color: #fff;
+}
+.section-slogan .order-form input[type=text] {
+    border: 2px solid #fff;
+    background: none;
+}
+.section-docs {
+    padding: 50px 0;
+}
+.section-docs .section-heading {
+    margin-bottom: 40px;
+}
+.section-docs .ul-heading {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.ul-docs {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.ul-docs li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+.ul-docs li:before {
+    content: "• ";
+    color: #1983BE;
+}
+
+.section-order.order-last {
+    padding-top: 70px; 
+    padding-bottom: 70px;
+    color: #000;
+    background: #1983BE;
+}
+.order-last .section-heading,
+.order-last p.lead {
+    color: #fff;
+}
+.order-last .order-form {
+    background: #fff;
+    padding: 25px 50px;
+    margin-top: 20px;
+}
+.discount {
+    font-weight: bold;
+    font-size: 21px;
+}
