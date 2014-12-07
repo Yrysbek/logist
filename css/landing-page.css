@@ -185,8 +185,6 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #646464;
-    color: #fff;
 }
 
 p.copyright {
@@ -212,6 +210,8 @@ p.copyright {
     border: 2px solid #888;
     margin: 5px 0 15px;
 }
+    background-color: #646464;
+    color: #fff;
 .content-section-b .section-heading {
     text-transform: uppercase;
     font-size: 35px;
@@ -309,48 +309,4 @@ p.copyright {
 .section-slogan .order-form input[type=text] {
     border: 2px solid #fff;
     background: none;
-}
-.section-docs {
-    padding: 50px 0;
-}
-.section-docs .section-heading {
-    margin-bottom: 40px;
-}
-.section-docs .ul-heading {
-    font-weight: bold;
-    font-size: 17px;
-    margin-bottom: 20px;
-}
-.ul-docs {
-    list-style: none;
-    padding:0;
-    margin:0;
-}
-.ul-docs li { 
-    padding-left: 1em; 
-    text-indent: -.7em;
-}
-.ul-docs li:before {
-    content: "• ";
-    color: #1983BE;
-}
-
-.section-order.order-last {
-    padding-top: 70px; 
-    padding-bottom: 70px;
-    color: #000;
-    background: #1983BE;
-}
-.order-last .section-heading,
-.order-last p.lead {
-    color: #fff;
-}
-.order-last .order-form {
-    background: #fff;
-    padding: 25px 50px;
-    margin-top: 20px;
-}
-.discount {
-    font-weight: bold;
-    font-size: 21px;
 }
